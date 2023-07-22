@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Beau+Rivage&family=Josefin+Sans:ital,wght@1,100&family=Rubik+Bubbles&family=Ysabeau+SC:wght@300;400;500&display=swap)
+
+
+* {
+	margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+
+}
+
+
+
+
+body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #c8887e;
+	font-weight: 400;
+	flex-grow: 0.2;
+	
+
+}
+
+
+main{
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	flex-grow: 5;
+	background: #d6a196;
+
+
+
+}
+
+main nav{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-grow: 0.5;
+	margin-bottom: 30px;
+}
+
+main nav ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 2px;
+	margin: 2px;
+	background-color: #8c5e7d;
+    border:2px solid #443539;
+    border-radius: 10px;	
+	box-shadow: 5px 5px 5px black;
+	
+	
+}
+
+main nav ul li{
+	padding: 2px;
+	margin: 5px;
+	flex-wrap: wrap;
+	border-radius: 20%;
+	background-color: #443539;
+	list-style-type: none;
+	text-decoration: none;
+
+
+}
+
+main nav ul li a{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2px;
+	margin:2px;
+	font-family: Ysabeau SC, sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: 500;
+	color: #d1c4aa;
+
+
+
+}
+
+	
+
+ main section h2{
+ 	flex-wrap: wrap;
+	text-align: center;
+	flex-grow: 2;
+}
+
+#sintesis{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+
+#sintesis p{
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+
+#rutas{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-grow: 6;
+	padding: 40px;
+	
+}
+
+
+#rutas table tr td{
+	padding: 1rem;
+	margin: 2rem;
+	flex-wrap: wrap;
+}
+
+#rutas table tr td img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	box-shadow: 5px 5px 10px black;
+	border-radius: 5%;
+	flex-wrap: wrap;
+
+}
+
+#productos{
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 4;
+	justify-content: center;
+	text-align: center;
+
+}
+#productos table tr td{
+	flex-wrap: wrap;
+
+}
+	
+#productos table tr td img {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px;
+	border:2px solid black;
+	border-radius: 10%;
+	width:17rem;
+	height: 17rem;
+
+}
+#video_consejos{
+	flex-wrap: wrap;
+	flex-grow: 2;
+}
+
+
+
+footer{
+	background: yellow;
+	flex-grow: 2;
+	font-family: 'Ysabeau SC', sans-serif;
+	font-weight: 300;
+	background-color: #330b28;
+    color: #ffffff;
+
+}
+
+    
+footer p{
+	text-align: center;
+	padding: 1rem;
+}
+
+footer a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 800; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
